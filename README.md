@@ -127,3 +127,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Uses the [@solana/web3.js](https://github.com/solana-labs/solana-web3.js) library
 - Uses the [Crossmint SDK](https://github.com/Crossmint/crossmint-sdk) for wallet management
 - Uses the [GOAT SDK](https://github.com/goat-sdk/goat) for Solana wallet integration
+
+![IYHeE1GSOf4ow3i3-generated_image](https://github.com/user-attachments/assets/6d150a61-ea22-4b03-b09d-074b36435aab)
+
