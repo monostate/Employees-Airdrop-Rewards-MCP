@@ -27,8 +27,8 @@ A Model Context Protocol (MCP) server to help corporate HR teams airdrop Solana 
 
 ### 1. Clone and Setup
 
-```bash
-git clone https://github.com/yourusername/crossmint-hr-airdrop-mcp.git
+```
+git clone https://github.com/monostate/Employees-Airdrop-Rewards-MCP.git
 cd crossmint-hr-airdrop-mcp
 ./setup.sh
 ```
