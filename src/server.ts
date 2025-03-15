@@ -382,11 +382,11 @@ Please provide your Crossmint API key to continue.`,
       
       const apiKey = providedApiKey;
       
-      console.log(`Connecting Crossmint wallet for ${email}`);
+      console.error(`Connecting Crossmint wallet for ${email}`);
       
       try {
         // In production mode, attempt to connect to the real Crossmint wallet
-        console.log('PRODUCTION MODE: Attempting to connect to real Crossmint wallet');
+        console.error('PRODUCTION MODE: Attempting to connect to real Crossmint wallet');
         
         // Initialize Crossmint client
         const crossmintClient = crossmint(apiKey);
@@ -405,7 +405,7 @@ Please provide your Crossmint API key to continue.`,
         // For now, we'll use a default value
         const solBalance = 1.0;
         
-        console.log(`Successfully connected to real Crossmint wallet: ${publicKey}`);
+        console.error(`Successfully connected to real Crossmint wallet: ${publicKey}`);
         
         // Update state
         this.state.connectedWallet = {
@@ -725,8 +725,8 @@ Please provide your Crossmint API key to continue.`,
       );
     }
     
-    // Log the parsed data for debugging
-    console.error('Parsed employee data:', JSON.stringify(employeeList, null, 2));
+      // Log the parsed data for debugging
+      console.error('Parsed employee data:', JSON.stringify(employeeList, null, 2));
     
     try {
       // Create a Solana connection
