@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "vitest run --passWithNoTests",
-    "build": "tsc && node -e \"require('fs').chmodSync('build/server.js', '755')\"",
+    "build": "tsc && node build.js",
     "start": "node build/server.js",
     "setup": "./setup.sh",
     "install-mcp": "node scripts/install-mcp.js",
