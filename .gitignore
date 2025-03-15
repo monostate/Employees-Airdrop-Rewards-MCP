@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Solana Agent Kit (will be cloned during setup)
+solana-agent-kit/
+
+# Goat SDK (will be cloned during setup)
+goat/
+
+# Test files
+token-creator-wallet.json
+src/test.ts
+
+# Duplicate project directory
+Crossmint-HR-Airdrop-MCP/

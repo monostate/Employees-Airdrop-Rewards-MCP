@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Token Airdrop is Ready!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .header {
+      background-color: #4F46E5;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 5px 5px 0 0;
+    }
+    .content {
+      padding: 20px;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      border-top: none;
+      border-radius: 0 0 5px 5px;
+    }
+    .token-info {
+      background-color: #e9f7fe;
+      border: 1px solid #b3e5fc;
+      border-radius: 5px;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    .wallet-address {
+      font-family: monospace;
+      background-color: #f0f0f0;
+      padding: 10px;
+      border-radius: 5px;
+      word-break: break-all;
+    }
+    .button {
+      display: inline-block;
+      background-color: #4F46E5;
+      color: white;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 5px;
+      margin: 20px 0;
+      font-weight: bold;
+    }
+    .footer {
+      margin-top: 30px;
+      font-size: 12px;
+      color: #777;
+      text-align: center;
+    }
+    ol {
+      margin: 20px 0;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Your Token Airdrop is Ready!</h1>
+  </div>
+  <div class="content">
+    <p>Dear {{name}},</p>
+    
+    <p>We are pleased to inform you that you have received an airdrop of <strong>{{tokenAmount}} {{tokenSymbol}}</strong> tokens!</p>
+    
+    <div class="token-info">
+      <p><strong>Token Details:</strong></p>
+      <p>Token: {{tokenSymbol}}</p>
+      <p>Amount: {{tokenAmount}}</p>
+      <p>Your wallet address:</p>
+      <div class="wallet-address">{{walletAddress}}</div>
+    </div>
+    
+    <p>To access your tokens, follow these steps:</p>
+    <ol>
+      <li>Log in to your Crossmint account using this email address ({{email}})</li>
+      <li>Go to "My Wallets" section to see your custodial wallet</li>
+      <li>Your tokens will be visible in your wallet balance</li>
+    </ol>
+    
+    <a href="https://www.crossmint.com/signin?callbackUrl=/user/collection" class="button">Log in to Crossmint</a>
+    
+    <p>Thank you for being a valued member of our team!</p>
+    
+    <div class="footer">
+      <p>This is an automated message. Please do not reply to this email.</p>
+      <p>If you have any questions, please contact your HR department.</p>
+    </div>
+  </div>
+</body>
+</html>
